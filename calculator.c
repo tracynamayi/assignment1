@@ -1,3 +1,6 @@
+//TRACY NAMAYI 
+// ENE212-0067/2021
+
 #include <stdio.h>
 
 int main() {
