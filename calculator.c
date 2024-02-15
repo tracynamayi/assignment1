@@ -1,22 +1,25 @@
 //TRACY NAMAYI 
 // ENE212-0067/2021
 
-#include <stdio.h>
+#include<stdio.h>
+int main(){
+	double num1;
+	double num2;
+	double sum;
+	double difference;
 
-int main() {
-    int num = 10;
-
-    // Check if num is greater than 0
-    if (num > 0) {
-        printf("The number is positive\n");
-    }
-
-    // Check if num is even or odd
-    if (num % 2 == 0) {
-        printf("The number is even\n");
-    } else {
-        printf("The number is odd\n");
-    }
-
-    return 0;
+	printf("Enter the first number:  ");
+	scanf("%lf",&num1);
+	printf("Enter the second number:  ");
+	scanf("%lf",&num2);
+	
+	sum = num1 + num2;
+	difference = num1 - num2;
+	
+	printf("Your total is %lf\n", sum);
+	printf("Your difference is %lf\n", difference);
+	
+	
+	return 0; 
 }
+	
